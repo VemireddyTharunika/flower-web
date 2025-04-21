@@ -423,26 +423,29 @@
 
 <!--contact section starts-->
  <!-- contact section starts -->
- <section class="contact" id="contact">
+<!-- contact section starts -->
+<section class="contact" id="contact">
 
     <h1 class="heading">contact <span>us</span></h1>
 
     <div class="row">
 
-       <form action="">
-           <input type="text" placeholder="name" class="box">
-           <input type="email" placeholder="email" class="box">
-           <input type="number" placeholder="number" class="box">
-           <textarea name="" class="box" placeholder="messsage" id="" cols="30" rows="10"></textarea>
-           <input type="submit" value="send messsage" class="btn">
+       <form action="https://formspree.io/f/xkgjdgze" method="POST">
+           <input type="text" name="name" placeholder="name" class="box" required>
+           <input type="email" name="email" placeholder="email" class="box" required>
+           <input type="number" name="phone" placeholder="number" class="box">
+           <textarea name="message" class="box" placeholder="message" cols="30" rows="10" required></textarea>
+           <input type="submit" value="send message" class="btn">
        </form>
 
        <div class="image">
-           <img src="cute-little.jpg">
+           <img src="cute-little.jpg" alt="Contact Image">
        </div>
     </div>
     
-    </section>
+</section>
+<!-- contact section ends -->
+
 <!--contact section ends-->
 
 <!--footer section starts-->
